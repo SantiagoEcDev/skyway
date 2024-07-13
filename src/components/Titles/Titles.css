@@ -1,0 +1,15 @@
+.subheading-h2{
+    font-size: 40px;
+    color: #000000;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.subheading-h2 span{
+    color: #FF6525;
+}
+.subheading-h3{
+    color: #FF6525;
+    font-size: 20px;
+    letter-spacing: 0.3em;
+    font-weight: 600;
+}

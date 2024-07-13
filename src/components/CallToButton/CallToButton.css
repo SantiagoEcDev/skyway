@@ -1,0 +1,17 @@
+.navigation-cta a {
+  color: white;
+  background-color: #ff6525;
+  text-decoration: none;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  height: 70px;
+  width: 200px;
+  
+}
+
+.navigation-cta a:hover {
+  background-color: #fc7034;
+}

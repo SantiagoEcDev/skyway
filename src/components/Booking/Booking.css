@@ -1,0 +1,48 @@
+.booking-section{
+    margin-top: 40px;
+}
+
+.booking-section-make-booking{
+    background-color: #FFFFFF;
+    height: 90px;
+    border-radius: 50px;
+    padding: 10px 16px;
+    display: flex;
+    width: 1130px;
+    align-items: center;
+    margin: auto;
+    justify-content:space-between;
+
+}
+.booking-section-make-booking span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: start;
+    width: 218px;
+}
+
+.booking-section-make-booking span input{
+    height: 40px;
+    font-size: 20px;
+    width: 100px;
+    border: none;
+}
+.booking-section-make-booking span input:focus{
+    outline: none;
+}
+.booking-section-make-booking-search{
+    display: flex;
+    gap: 8px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #FF6525;
+    width: 165px;
+    height: 63px;
+    border-radius: 50px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    text-align: center;
+}

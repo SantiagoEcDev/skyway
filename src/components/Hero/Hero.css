@@ -1,0 +1,42 @@
+.hero-section {
+    position: relative;
+    height: 90vh;
+    color: #272444;
+    margin-top: 60px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hero-section-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section-message-title {
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+
+.hero-section-message-title span {
+    font-weight: bolder;
+}
+
+.hero-section-image-francia {
+    position: absolute;
+    top: 0px; 
+    left: 0px; 
+}
+
+.hero-section-image-japon {
+    position: absolute;
+    bottom: 0px; 
+    left: 400px; 
+}
+
+.hero-section-image-grecia {
+    position: absolute;
+    top: 90px; 
+    right: 0px; 
+}

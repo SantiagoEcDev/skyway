@@ -1,0 +1,8 @@
+.top-places-section{
+    margin-top: 150px;
+}
+.top-places-section-country-cards{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}

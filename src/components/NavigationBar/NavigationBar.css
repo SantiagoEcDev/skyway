@@ -1,0 +1,32 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+  font-size: 20px;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.header-logo img {
+  width: 60px;
+  height: 60px;
+}
+.active {
+  color: #ff6525;
+  font-weight: bold;
+}
+
+.header-navigation {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+.header-navigation li a {
+  text-decoration: none;
+  color: #000000;
+}
