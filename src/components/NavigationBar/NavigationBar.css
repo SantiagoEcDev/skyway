@@ -6,16 +6,7 @@
   align-items: center;
   font-size: 20px;
 }
-.header-logo {
-  display: flex;
-  align-items: center;
-  font-weight: bold;
-  font-size: 20px;
-}
-.header-logo img {
-  width: 60px;
-  height: 60px;
-}
+
 .active {
   color: #ff6525;
   font-weight: bold;
@@ -30,3 +21,7 @@
   text-decoration: none;
   color: #000000;
 }
+.header-navigation li a:hover {
+  color: #ff6525;
+}
+

@@ -1,15 +1,12 @@
 import "./NavigationBar.css";
-import Logo from "../../assets/sky-way-logo.png";
+import { Logo } from "../Logo/Logo";
 import BookingIcon from "../../assets/BookingIcon.png";
 import { CallToButton } from "../CallToButton/CallToButton";
 
 export const NavigationBar = ({navList }) => {
   return (
     <header className="header">
-      <div className="header-logo">
-        <img src={Logo} alt="SkyWayLogo" />
-        <p>SkyWay</p>
-      </div>
+      <Logo/>
 
       <nav>
         <ul className="header-navigation">

@@ -1,0 +1,8 @@
+.services-section{
+    margin-top: 100px;
+}
+.services-section-infocards{
+    gap: 80px;
+    display: flex;
+    justify-content: center;
+}

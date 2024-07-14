@@ -1,42 +1,59 @@
 .hero-section {
-    position: relative;
-    height: 90vh;
-    color: #272444;
-    margin-top: 60px;
-    font-size: 20px;
-    text-align: center;
+  position: relative;
+  height: 90vh;
+  color: #272444;
+  margin-top: 60px;
+  font-size: 20px;
+  text-align: center;
 }
 
 .hero-section-message {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-section-message-title {
-    margin-bottom: 40px;
-    font-weight: 400;
+  margin-bottom: 40px;
+  font-weight: 400;
 }
 
 .hero-section-message-title span {
-    font-weight: bolder;
+  font-weight: bolder;
 }
 
 .hero-section-image-francia {
-    position: absolute;
-    top: 0px; 
-    left: 0px; 
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transition: transform 0.3s ease;
+}
+.hero-section-image-francia:hover {
+  transform: scale(1.1);
 }
 
 .hero-section-image-japon {
-    position: absolute;
-    bottom: 0px; 
-    left: 400px; 
+  position: absolute;
+  bottom: 0px;
+  left: 400px;
+  transition: transform 0.3s ease;
 }
-
+.hero-section-image-japon:hover {
+  position: absolute;
+  bottom: 0px;
+  left: 400px;
+  transform: scale(1.1);
+}
 .hero-section-image-grecia {
-    position: absolute;
-    top: 90px; 
-    right: 0px; 
+  position: absolute;
+  top: 90px;
+  right: 0px;
+  transition: transform 0.3s ease;
+}
+.hero-section-image-grecia:hover {
+  position: absolute;
+  top: 90px;
+  right: 0px;
+  transform: scale(1.1);
 }

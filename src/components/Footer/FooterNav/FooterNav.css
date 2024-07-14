@@ -1,0 +1,20 @@
+.footer-nav{
+    gap: 20px;
+    justify-content: end;
+}
+.footer-nav-list{
+    list-style: none;
+    row-gap: 100px;
+    padding: 10px;
+}
+.footer-nav-list a{
+    color: #B1B1B1;
+    text-decoration: none;
+}
+.footer-nav-list a:hover{
+    color: #FF6525;
+    font-weight: 400;
+}
+.footer-nav-list-links{
+    margin-top: 10px;
+}

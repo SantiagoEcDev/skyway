@@ -1,0 +1,23 @@
+.footer {
+    background: #FFFFFF;
+    height: 444px;
+    margin: 100px 0; 
+    width: 100%; 
+    display: flex;
+    padding: 40px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    justify-content: center;
+}
+
+.footer-message{
+    width: 672px;
+    height: 160px;
+}
+.footer-links{
+    display: flex;
+    gap: 26px;
+    width: 520px;
+    justify-content: end;
+}
