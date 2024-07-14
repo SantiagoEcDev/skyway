@@ -1,9 +1,9 @@
 import "./CallToButton.css";
 
-export const CallToButton = ({icon, text}) => {
+export const CallToButton = ({id, href, icon, text}) => {
   return (
-    <div className="navigation-cta">
-      <a href="#">
+    <div id={id} className="navigation-cta">
+      <a href={href}>
         <img src={icon} alt="Booking" /> {text}
       </a>
     </div>

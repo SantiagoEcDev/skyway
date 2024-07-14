@@ -22,6 +22,36 @@
   color: #000000;
 }
 .header-navigation li a:hover {
-  color: #ff6525;
+  color: #ff4e02;
 }
 
+@media(max-width: 992px){
+  .header{
+    font-size: 1rem;
+    margin: 0;
+  }
+  .header nav{
+    display: none;
+  }
+  .header-navigation-bar{
+    font-size: 40px;
+  }
+  .header-navigation-bar:hover{
+    cursor: pointer;
+  }
+  
+}
+
+
+
+@media (min-width: 993px) {
+  .header-navigation-bar {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .header-navigation-bar {
+    display: block; 
+  }
+}

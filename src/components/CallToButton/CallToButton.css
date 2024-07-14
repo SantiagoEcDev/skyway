@@ -13,5 +13,15 @@
 }
 
 .navigation-cta a:hover {
-  background-color: #fc7034;
+  background-color: #ff4e02;
+}
+
+@media(max-width: 992px){
+  #bookingButton{
+    display: none;
+  }
+  #discover img{
+    width: 30px;
+    height: 30px;
+  }
 }

@@ -37,7 +37,7 @@ export const Footer = () => {
     <footer className="footer">
       <div className="footer-message">
         <Logo />
-        <SubheadingH2 text="Encuentra los mejores destinos y ofertas de vuelos con nosotros. Viaja fácil y seguro con SkyWay. ¡Explora el mundo y vuela alto!" />
+        <h2>Encuentra los mejores destinos y ofertas de vuelos con nosotros. Viaja fácil y seguro con SkyWay. ¡Explora el mundo y vuela alto!</h2>
       </div>
       <div className="footer-links">
         {sections.map((section, index) => (

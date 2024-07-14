@@ -1,48 +1,71 @@
-.booking-section{
-    margin-top: 40px;
+.booking-section {
+  margin-top: 0;
 }
 
-.booking-section-make-booking{
-    background-color: #FFFFFF;
-    height: 90px;
-    border-radius: 50px;
-    padding: 10px 16px;
-    display: flex;
-    width: 1130px;
-    align-items: center;
-    margin: auto;
-    justify-content:space-between;
+.booking-section-make-booking {
+  background-color: #ffffff;
+  height: 90px;
+  border-radius: 50px;
+  padding: 10px 16px;
+  display: flex;
+  width: 1130px;
+  align-items: center;
+  margin: auto;
+  justify-content: space-between;
+}
+.booking-section-make-booking span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: start;
+  width: 218px;
+}
 
+.booking-section-make-booking span input {
+  height: 40px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #b1b1b1;
+  width: 100px;
+  border: none;
 }
-.booking-section-make-booking span{
+.booking-section-make-booking span input:focus {
+  outline: none;
+}
+.datepicker-container {
+  max-width: 284px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.booking-section-make-booking-search {
+  display: flex;
+  gap: 8px;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #ff6525;
+  width: 165px;
+  height: 63px;
+  border-radius: 50px;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+}
+.booking-section-make-booking-search:hover {
+  cursor: pointer;
+  background: #ff4e02;
+}
+@media (max-width: 992px) {
+  .booking-section-make-booking {
     display: flex;
-    align-items: center;
-    gap: 10px;
-    justify-content: start;
-    width: 218px;
-}
-
-.booking-section-make-booking span input{
-    height: 40px;
-    font-size: 20px;
-    width: 100px;
-    border: none;
-}
-.booking-section-make-booking span input:focus{
-    outline: none;
-}
-.booking-section-make-booking-search{
-    display: flex;
-    gap: 8px;
-    font-size: 20px;
-    font-weight: 400;
-    background-color: #FF6525;
-    width: 165px;
-    height: 63px;
-    border-radius: 50px;
-    border: none;
-    justify-content: center;
-    align-items: center;
-    color: #FFFFFF;
-    text-align: center;
+    flex-direction: column;
+    height: 500px;
+    align-items: start;
+    border-radius: 20px;
+    width: auto;
+    margin-top: 10px;
+    padding: 20px 20px;
+  }
+  
 }

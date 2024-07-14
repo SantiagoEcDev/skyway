@@ -2,6 +2,9 @@ import "./NavigationBar.css";
 import { Logo } from "../Logo/Logo";
 import BookingIcon from "../../assets/BookingIcon.png";
 import { CallToButton } from "../CallToButton/CallToButton";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+
 
 export const NavigationBar = ({navList }) => {
   return (
@@ -23,7 +26,8 @@ export const NavigationBar = ({navList }) => {
         </ul>
       </nav>
 
-      <CallToButton icon={BookingIcon} text={"Reservas"}/>
+      <CallToButton id="bookingButton" icon={BookingIcon} text={"Reservas"}/>
+      <FontAwesomeIcon className="header-navigation-bar" icon={faBars} />
     </header>
   );
 };

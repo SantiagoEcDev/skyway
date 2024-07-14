@@ -1,8 +1,17 @@
-.top-places-section{
-    margin-top: 150px;
+.top-places-section {
+  margin-top: 150px;
 }
-.top-places-section-country-cards{
+.top-places-section-country-cards {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+@media (max-width: 992px) {
+  .top-places-section-country-cards{
     display: flex;
-    justify-content: center;
-    gap: 80px;
+    flex-direction: column;
+    align-items: center;
+    gap:0;
+  }
+
 }

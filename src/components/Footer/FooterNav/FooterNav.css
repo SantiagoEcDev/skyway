@@ -18,3 +18,9 @@
 .footer-nav-list-links{
     margin-top: 10px;
 }
+@media(max-width:992px){
+    .footer-nav-list{
+        align-items: end;
+        font-size: 8px;
+    }
+}

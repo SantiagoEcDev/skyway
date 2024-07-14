@@ -21,3 +21,21 @@
     width: 520px;
     justify-content: end;
 }
+@media(max-width:992px){
+    .footer{
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+    }
+.footer-message{
+    font-size: 0.5rem;
+    margin: 20 20px;
+}
+.footer-links{
+    font-size: 10px;
+    gap: 0;
+    width: 200px;
+
+}
+
+}

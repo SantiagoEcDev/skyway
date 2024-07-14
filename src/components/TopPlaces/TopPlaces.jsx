@@ -7,7 +7,7 @@ import Melfor from "./images/Melfor.png";
 
 export const TopPlaces = () => {
   return (
-    <section className="top-places-section">
+    <section id="topPlaces" className="top-places-section">
       <SubheadingH3 text="DESTINOS POPULARES" />
 
       <SubheadingH2

@@ -15,7 +15,7 @@ export const Hero = () => {
           No te quedes en casa, <br />
           <span>¡sal a explorarlo!</span>
         </h1>
-        <CallToButton icon={MapIcon} text={"Descubrir"} />
+        <CallToButton id="discover" href="#topPlaces" icon={MapIcon} text={"Descubrir"} />
       </main>
 
       <img className="hero-section-image-francia" src={Francia} alt="Francia" />

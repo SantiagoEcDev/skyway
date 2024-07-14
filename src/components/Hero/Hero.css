@@ -27,6 +27,8 @@
   position: absolute;
   top: 0px;
   left: 0px;
+  width: 200px;
+  height: 200px;
   transition: transform 0.3s ease;
 }
 .hero-section-image-francia:hover {
@@ -35,25 +37,43 @@
 
 .hero-section-image-japon {
   position: absolute;
-  bottom: 0px;
-  left: 400px;
+  bottom: 100px;
+  left: 300px;
   transition: transform 0.3s ease;
+  width: 300px;
+  height: 300px;
 }
 .hero-section-image-japon:hover {
-  position: absolute;
-  bottom: 0px;
-  left: 400px;
   transform: scale(1.1);
 }
 .hero-section-image-grecia {
   position: absolute;
-  top: 90px;
+  top: 50px;
+  height: 400px;
+  width: 400px;
   right: 0px;
   transition: transform 0.3s ease;
 }
 .hero-section-image-grecia:hover {
-  position: absolute;
-  top: 90px;
-  right: 0px;
+
   transform: scale(1.1);
+}
+@media (max-width: 992px) {
+  .hero-section-image-francia{
+    top:380px;
+    height: 100px;
+    width: 100px;
+  }
+  .hero-section-image-grecia {
+    height: 100px;
+    width: 100px;
+    top: 380px;
+    left: 130px;
+  }
+  .hero-section-image-japon {
+    height: 100px;
+    width: 100px;
+    left: 250px;
+    top: 380px;
+}
 }
