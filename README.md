@@ -1,8 +1,34 @@
-# React + Vite
+# Prueba técnica Stone React-UI/UX 👨‍🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Proyecto de Reservas 🛫
 
-Currently, two official plugins are available:
+Este proyecto es una aplicación de reservas creada con React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Requisitos 🗒
+
+Antes de comenzar, asegúrate de tener instalados los siguientes requisitos en tu máquina:
+
+- [Node.js](https://nodejs.org/) (versión recomendada: LTS)
+- [npm](https://www.npmjs.com/) o [yarn](https://yarnpkg.com/)
+
+## Clonar el Repositorio 🌟
+
+Para clonar este repositorio, abre una terminal y ejecuta el siguiente comando:
+
+git clone (https://github.com/SantiagoEcDev/skyway.git)
+
+## Instalar dependecias 🤹‍♂️
+
+Para instalar las dependencias necesarias ejecuta el siguiente comando en la terminal:
+npm install
+
+## Ejecutar proyecto 👨‍💻
+
+Después de instalar las dependencias ejecuta el siguiente comando en la terminal:
+npm run dev
+
+## Ver proyecto 👀
+
+Después de ejecutar el proyecto ve a una pestaña de tu navegador y entra a la siguiente dirección:
+
+http://localhost:5173/
