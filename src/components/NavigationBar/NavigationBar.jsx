@@ -1,33 +1,42 @@
+import React, { useState } from "react";
 import "./NavigationBar.css";
 import { Logo } from "../Logo/Logo";
 import BookingIcon from "../../assets/BookingIcon.png";
 import { CallToButton } from "../CallToButton/CallToButton";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 
+export const NavigationBar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
 
-export const NavigationBar = ({navList }) => {
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <header className="header">
-      <Logo/>
+      <Logo />
 
-      <nav>
+      <nav className={menuOpen ? "open" : ""}>
         <ul className="header-navigation">
           <li className="active">Inicio</li>
           <li>
-            <a href="#">{(navList = "Destinos")}</a>
+            <a href="#">Destinos</a>
           </li>
           <li>
-            <a href="#">{(navList = "Servicios")}</a>
+            <a href="#">Servicios</a>
           </li>
           <li>
-            <a href="#">{(navList = "Contacto")}</a>
+            <a href="#">Contacto</a>
           </li>
         </ul>
       </nav>
 
-      <CallToButton id="bookingButton" icon={BookingIcon} text={"Reservas"}/>
-      <FontAwesomeIcon className="header-navigation-bar" icon={faBars} />
+      <div className={`header-navigation-bar ${menuOpen ? "open" : ""}`} onClick={toggleMenu}>
+        <FontAwesomeIcon icon={menuOpen ? faTimes : faBars} className="icon" />
+      </div>
+
+      <CallToButton id="bookingButton" icon={BookingIcon} text={"Reservas"} />
     </header>
   );
 };

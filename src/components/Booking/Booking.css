@@ -23,11 +23,15 @@
 
 .booking-section-make-booking span input {
   height: 40px;
-  font-size: 20px;
+  font-size: 14px;
+  padding: 4px;
   font-weight: 400;
-  color: #b1b1b1;
-  width: 100px;
+  color: black;
+  width: 150px;
   border: none;
+}
+.booking-section-make-booking span input value{
+  color: red;
 }
 .booking-section-make-booking span input:focus {
   outline: none;
@@ -55,6 +59,11 @@
 .booking-section-make-booking-search:hover {
   cursor: pointer;
   background: #ff4e02;
+}
+.search-message{
+  color: red;
+  text-align: center;
+  display: none;
 }
 @media (max-width: 992px) {
   .booking-section-make-booking {

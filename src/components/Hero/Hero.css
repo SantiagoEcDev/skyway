@@ -31,6 +31,7 @@
   height: 200px;
   transition: transform 0.3s ease;
 }
+
 .hero-section-image-francia:hover {
   transform: scale(1.1);
 }
@@ -43,9 +44,11 @@
   width: 300px;
   height: 300px;
 }
+
 .hero-section-image-japon:hover {
   transform: scale(1.1);
 }
+
 .hero-section-image-grecia {
   position: absolute;
   top: 50px;
@@ -54,26 +57,26 @@
   right: 0px;
   transition: transform 0.3s ease;
 }
-.hero-section-image-grecia:hover {
 
+.hero-section-image-grecia:hover {
   transform: scale(1.1);
 }
+
 @media (max-width: 992px) {
-  .hero-section-image-francia{
-    top:380px;
-    height: 100px;
-    width: 100px;
-  }
+  .hero-section-image-francia,
+  .hero-section-image-japon,
   .hero-section-image-grecia {
-    height: 100px;
-    width: 100px;
-    top: 380px;
-    left: 130px;
+    position: static;
+    width: 70px;
+    height: 70px;
+    margin: 100px 10px;
+    transition: transform 0.3s ease;
+    transform-origin: center;
   }
-  .hero-section-image-japon {
-    height: 100px;
-    width: 100px;
-    left: 250px;
-    top: 380px;
-}
+
+  .hero-section-image-francia:hover,
+  .hero-section-image-japon:hover,
+  .hero-section-image-grecia:hover {
+    transform: scale(1.1);
+  }
 }

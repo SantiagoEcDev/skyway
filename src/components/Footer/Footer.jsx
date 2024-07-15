@@ -1,6 +1,6 @@
 import { Logo } from "../Logo/Logo";
 import { SubheadingH2 } from "../Titles/Titles";
-import { FooterNav } from "./FooterNav/Footer";
+import { FooterNav } from "./FooterNav/FooterNav";
 
 import "./Footer.css";
 
@@ -37,7 +37,7 @@ export const Footer = () => {
     <footer className="footer">
       <div className="footer-message">
         <Logo />
-        <h2>Encuentra los mejores destinos y ofertas de vuelos con nosotros. Viaja fácil y seguro con SkyWay. ¡Explora el mundo y vuela alto!</h2>
+        <h2>Encuentra los mejores destinos y ofertas de vuelos con nosotros. <br />Viaja fácil y seguro con SkyWay. <br />¡Explora el mundo y vuela alto!</h2>
       </div>
       <div className="footer-links">
         {sections.map((section, index) => (
