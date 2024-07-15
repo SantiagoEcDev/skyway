@@ -15,7 +15,7 @@ Antes de comenzar, asegúrate de tener instalados los siguientes requisitos en t
 
 Para clonar este repositorio, abre una terminal y ejecuta el siguiente comando:
 
-git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+git clone [https://github.com/tu-usuario/nombre-del-repositorio.](https://github.com/SantiagoEcDev/skyway.git)
 
 ## Instalar dependecias 🤹‍♂️
 
