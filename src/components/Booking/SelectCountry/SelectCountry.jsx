@@ -9,6 +9,10 @@ export const SelectCountry = () => {
     setSelectedCountry(event.target.value);
   };
 
+  const sortedCountries = countriesData.countries.sort((a, b) =>
+    a.es_name.localeCompare(b.es_name)
+  );
+
   return (
     <>
       <select
@@ -18,7 +22,7 @@ export const SelectCountry = () => {
         onChange={handleChange}
       >
         <option value="">Elige un destino</option>
-        {countriesData.countries.map((country, index) => (
+        {sortedCountries.map((country, index) => (
           <option key={index} value={country.name}>
             {country.es_name}
           </option>

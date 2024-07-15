@@ -15,6 +15,9 @@
     width: 672px;
     height: 160px;
 }
+.footer-message h2{
+    margin-top: 30px;
+}
 .footer-links{
     display: flex;
     gap: 26px;
@@ -30,6 +33,10 @@
 .footer-message{
     font-size: 0.4rem;
     margin: 20 20px;
+}
+.footer-message h2{
+    margin-top: 20px;
+    font-size: 16px;
 }
 .footer-links{
     font-size: 10px;
